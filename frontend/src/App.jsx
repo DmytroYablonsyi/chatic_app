@@ -16,6 +16,7 @@ export const App = () => {
 
   const {theme} = useThemeStore();
   useEffect(() => {
+    
     checkAuth()
   }, [checkAuth])
 
